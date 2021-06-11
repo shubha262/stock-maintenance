@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        tools:context=".AddData">
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#99000000"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#99000000"
+            android:text="@string/buyer"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rate"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/total"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/gst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gst"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#99000000"
+            android:text="Payment Details"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#B8B894" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/Paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paid"
+                android:onClick="onRadioButtonClicked"
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/Notpaid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notpaid"
+                android:onClick="onRadioButtonClicked"
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/Pending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pending"
+                android:onClick="onRadioButtonClicked"
+                android:textColor="@color/black"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/Duedate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/due"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:backgroundTint="@color/black"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#00BFFF"
+            android:text="@string/save"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</ScrollView>
+

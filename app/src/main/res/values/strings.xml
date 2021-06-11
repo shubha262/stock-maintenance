@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stock Maintenance</string>
+    <string name="text">Stock Maintenance</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="date">Date</string>
+    <string name="buyer">Buyer</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="quantity">Quantity</string>
+    <string name="rate">Rate</string>
+    <string name="total">Total</string>
+    <string name="gst">GST</string>
+    <string name="paid">Paid</string>
+    <string name="notpaid">NotPaid</string>
+    <string name="pending">Pending</string>
+    <string name="due">Due</string>
+    <string name="save">Save</string>
+</resources>

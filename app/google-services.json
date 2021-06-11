@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "239983528670",
+    "firebase_url": "https://stockmaintainanceandtracker-default-rtdb.firebaseio.com",
+    "project_id": "stockmaintainanceandtracker",
+    "storage_bucket": "stockmaintainanceandtracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239983528670:android:6a25a02f3188c6ec19504f",
+        "android_client_info": {
+          "package_name": "com.example.stock_maintainence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239983528670-d8ttm30q64ra2h6jnq91ch0kmau7bl4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5CklISLQidxXjPvlDO0ZcYYmAdRtxXLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239983528670-d8ttm30q64ra2h6jnq91ch0kmau7bl4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239983528670:android:215435f5c4ee128319504f",
+        "android_client_info": {
+          "package_name": "com.pool.stock__maintainence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239983528670-d8ttm30q64ra2h6jnq91ch0kmau7bl4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5CklISLQidxXjPvlDO0ZcYYmAdRtxXLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239983528670-d8ttm30q64ra2h6jnq91ch0kmau7bl4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

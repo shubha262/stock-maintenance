@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    card_view:contentPadding="5dp"
+    card_view:cardElevation="3dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:layout_marginStart="5dp"
+       android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currentdatedisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginLeft="8dp"
+            android:textSize="14sp"
+            android:textColor="#000"/>
+            <TextView
+            android:id="@+id/currentdatetext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/currentdatedisplay"
+            android:text="Date"
+            android:textColor="#000"
+            android:textSize="13sp" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+
+    <TextView
+         android:id="@+id/namedisplay"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/currentdatedisplay"
+         android:text="Name"
+         android:layout_marginLeft="8dp"
+         android:textColor="#000"
+         android:textDirection="locale"
+         android:textSize="14sp" />
+
+    <TextView
+         android:id="@+id/nametext"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginLeft="-215dp"
+         android:layout_toRightOf="@+id/namedisplay"
+         android:layout_below="@+id/currentdatetext"
+         android:text="Name"
+         android:textSize="13sp"
+         android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+
+
+    <TextView
+            android:id="@+id/phonedisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namedisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Phone Number"
+            android:textColor="#000"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/phonetext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Location"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/phonedisplay"
+            android:layout_below="@id/nametext"
+            android:textSize="13sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addressdisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phonedisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Location:"
+            android:textColor="#000"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/addresstext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Phone number"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/addressdisplay"
+            android:layout_below="@id/phonetext"
+            android:textSize="13sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/qtydisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="-24dp"
+            android:text="Quantity In Litres"
+            android:textColor="#000"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/qtytext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addresstext"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/qtydisplay"
+            android:text="quantity "
+            android:textColor="#000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ratedisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/qtydisplay"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="-24dp"
+            android:text="Rate per Litre"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ratetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qtytext"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/ratedisplay"
+            android:text="rate"
+            android:textColor="#000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/totaldisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratedisplay"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="-24dp"
+            android:text="Total"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/totaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratetext"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/totaldisplay"
+            android:text="total"
+            android:textColor="#000"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/gstdisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/totaldisplay"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="-24dp"
+            android:text="GST"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/gsttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totaltext"
+            android:layout_marginLeft="-215dp"
+            android:layout_toRightOf="@+id/gstdisplay"
+            android:text="gst"
+            android:textColor="#000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/paymentisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gstdisplay"
+            android:layout_marginLeft="8dp"
+            android:text="PAYMENT STATUS"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/paymenttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gsttext"
+            android:layout_marginLeft="-215dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/paymentisplay"
+            android:text="Status"
+            android:textColor="#000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
