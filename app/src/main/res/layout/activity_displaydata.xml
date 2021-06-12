@@ -17,10 +17,11 @@
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_below="@+id/recview"
-        android:backgroundTint="#ffffff"
+        android:backgroundTint="#00BFFF"
         android:layout_marginTop="-150dp"
         android:layout_marginLeft="290dp"
         android:background="@drawable/ic_baseline_add_circle_24" />
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomnavigation"
@@ -28,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:itemBackground="@color/design_default_color_on_primary"
+        android:backgroundTint="#00BFFF"
         app:itemTextColor="@drawable/selectors"
         app:menu="@menu/menu_navigation"/>
 

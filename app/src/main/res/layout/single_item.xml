@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/selector"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="3dp"
         android:orientation="vertical">
 
     <LinearLayout
@@ -276,5 +276,6 @@
     </LinearLayout>
 
     </LinearLayout>
+
 
 </androidx.cardview.widget.CardView>

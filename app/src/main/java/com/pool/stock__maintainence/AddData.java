@@ -67,7 +67,7 @@ public class AddData extends AppCompatActivity {
                 saveRecord();
             }
         });
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy 'at' HH:mm:ss");
         String currentDateandTime = sdf.format(new Date());
         textdate.setText(currentDateandTime);
 
